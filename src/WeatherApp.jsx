@@ -5,7 +5,7 @@ import React, { useState } from "react";
 
 export default function WeatherApp() {
   const [ weatherInfo, setWeatherInfo ] = useState({
-    city: "Lahore",
+    city: "Gujranwala",
     temp: 23,
     tempMin: 20,
     tempMax: 25,
